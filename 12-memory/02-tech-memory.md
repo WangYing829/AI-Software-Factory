@@ -9,6 +9,7 @@
 | 2026-07-23 | 前端默认栈 | Vue 3 + TS + Vite | Element Plus |
 | 2026-07-23 | 数据库 | MySQL 8 + utf8mb4 | 硬规则见 `10-knowledge/03-database-standards.md` |
 | 2026-07-23 | 仓库定位 | 方法论模板（示例代号 monitorV2） | `TEMPLATE_USAGE.md` |
+| 2026-07-23 | 演示业务域 | DemoAlert 告警值班台（虚构） | S01 验证文档链；非真实需求 |
 
 ## 踩坑
 | 日期 | 问题 | 处理 |

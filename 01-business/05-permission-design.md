@@ -24,10 +24,10 @@
 
 | 资源 / 能力 | admin | operator | viewer |
 |-------------|-------|----------|--------|
-| `[示例: 用户管理]` | CRUD | - | - |
-| `[示例: 业务主数据]` | CRUD | CRU | R |
-| `[示例: 业务单据]` | CRUD | CRUX | R |
-| `[示例: 报表导出]` | X | X | R |
+| 用户管理 | CRUD | - | - |
+| 告警（列表/详情） | CRUD | CRU | R |
+| 告警认领/关闭 | X | X | - |
+| 告警导出 | X | X | - |
 | 系统配置 | CRUD | - | - |
 
 ## 4. 权限点编码约定
@@ -40,8 +40,8 @@
 | 权限点 | 说明 | 默认角色 |
 |--------|------|----------|
 | `sys:user:manage` | 用户与角色管理 | admin |
-| `biz:entity:read` | 业务实体只读 | admin, operator, viewer |
-| `biz:entity:write` | 业务实体写 | admin, operator |
+| `biz:alert:read` | 告警只读 | admin, operator, viewer |
+| `biz:alert:write` | 认领/关闭/手工创建 | admin, operator |
 | `rpt:export` | 导出 | admin, operator |
 
 ## 5. 数据范围规则

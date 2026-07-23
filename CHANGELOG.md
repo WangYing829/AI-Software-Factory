@@ -15,8 +15,14 @@
 ## [Unreleased]
 
 ### Added
+- S01 演示业务 **DemoAlert**：`01-business/01–04` 示例内容
+- 演示 PRD 与用户故事（`02-product/01|02`）；Backlog US-001～006
+- 文档评审流程（`10-knowledge/08-documentation-standards.md`）
+- S01 复盘条目（Memory / 决策日志 / Done 归档）
 
 ### Changed
+- `01-business/05-permission-design.md` 矩阵对齐告警域权限点
+- S01 关闭；Context / Sprint 计划归档
 
 ### Fixed
 

@@ -3,16 +3,14 @@
 日期：2026-07-23
 
 ## 进行中
-- [x] 模板化 02–05 空文档
-- [x] 补 Prompt / Skill / Memory
-- [x] 开 S01 纯模板演示 Sprint
-- [ ] 推送 v0.2.0 并更新整合建议终态
+- （无 — S01 已关闭）
 
 ## 待办
-- [ ] S01·T-005：用 PM Prompt 填一页示例 PRD 段落（演示）
-- [ ] Sprint 结束复盘 → Memory
+- [ ] 确认 S02 方向：模板深化 vs 真实 monitorV2
+- [ ] 可选：从 Backlog 拉取 US-001～005 开实现向 Sprint（需先有 `13-src` 约定）
 
 ## 已完成
-- [x] 整合建议三批整改
-- [x] 方法论模板化与 Junction 重建
-- [x] 02–05 最小骨架 + Prompt/Skill/Memory 加固
+- [x] S01·T-005 DemoAlert 业务 + PRD + 用户故事
+- [x] S01·T-006 复盘 Memory / 决策日志
+- [x] 关闭 S01 并更新整合建议
+- [x] 文档评审流程写入 knowledge

@@ -29,5 +29,10 @@
 - 运行态进度同步 `11-context/`；长期事实同步 `12-memory/01-project-memory.md`
 - 禁止只改代码/文档却不更新 Context/Memory 导致「下一会话失忆」
 
-## 待填
-- [ ] 文档评审流程
+## 文档评审流程
+
+1. **作者自检**：阶段 README「输出标准」可回答；无 0 字节占位；示例与真实口径已标明  
+2. **交叉检查**：与上下游文档互证（如 PRD ↔ 功能清单 ↔ 权限 ↔ 页面）  
+3. **Review Agent / 人工**：按 `10-knowledge/06-code-review-checklist.md` 文档相关项勾选；重大口径变更记入 `11-context/05-decision-log.md`  
+4. **合入**：更新 `11-context/`；需发版则走 `CHANGELOG` + `release-checklist`  
+5. **闭环**：24h 内沉淀 Memory（若有坑/经验）
