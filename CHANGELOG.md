@@ -15,26 +15,41 @@
 ## [Unreleased]
 
 ### Added
+
+### Changed
+
+### Fixed
+
+---
+
+## [0.2.0] - 2026-07-23
+
+### Added
+- `02-product` / `03-architecture` / `04-database` / `05-api` 阶段空文档最小模板（消除假完成）
 - `TEMPLATE_USAGE.md`：Fork / 方法论模板使用说明
 - `01-business/05|06|07` 最小可用骨架（权限 / 页面 / 数据字典）
 - `14/15/16` 阶段 README；`15-templates` 四类协作模板 + `release-checklist.md`
 - `14-scripts/setup-cursor.ps1`：重建 `.cursor` Junction
 - `11-context/06-meeting-notes/meeting-template.md`
-- 测试 / 运维 Prompt 完整输出格式；库表 / 部署 / 测试硬规则
+- 测试 / 运维 / Python / Vue / SQL Prompt 完整输出格式
+- 库表 / 部署 / 测试硬规则；Memory 四件套示例条目
+- Sprint **S01 纯模板演示闭环**（`07-tasks/01-sprint-planning.md` + `sprints/S01-template-demo.md`）
+- `整合建议.md` 执行状态与后续建议
 
 ### Changed
-- `00-project.md`：方法论模板模式 + 一版可修订草稿（monitorV2 作示例代号）
-- `.gitignore`：输出物规则去重，`.gitkeep` 否定规则置后
-- `README.md`：反馈闭环第 9 步；快速开始对齐模板用法
+- `00-project.md`：方法论模板模式 + 草稿；当前版本 → `0.2.0`
+- `.gitignore`：输出物去重；ignore Cursor Junction 目录
+- `README.md`：反馈闭环第 9 步；版本与模板用法
 - `10-knowledge/08-documentation-standards.md`：24h Memory 闭环
 - `.cursor/settings.json`：`maxContextFiles` 50 → 100
-- `11-context/02-current-sprint.md`：补充「未启动」原因
+- `08-skills`：python/vue/mysql/testing/database 与 Knowledge/Prompt 对齐
+- `整合建议.md`：审计项关闭；第四～六批推进记录
 
 ### Removed
 - `08-skills/` 下 10 个与 `*/SKILL.md` 双份的空 `.md` 文件
 
 ### Fixed
-- 发版检查清单与 tag 核对流程（`15-templates/release-checklist.md`）；补打 `v0.1.0` 标签以使 CHANGELOG 链接有效
+- 发版检查清单与 `v0.1.0` / `v0.2.0` 标签流程
 
 ---
 
@@ -65,8 +80,10 @@
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
-| 0.1.0 | 2026-07-23 | 工厂脚手架首发，文档驱动多角色流程就绪 |
-| Unreleased | — | 整合建议三批整改 + 方法论模板化（待发版） |
+| 0.2.0 | 2026-07-23 | 模板加固：02–05 骨架、Prompt/Skill/Memory、S01、整合建议闭环 |
+| 0.1.0 | 2026-07-23 | 工厂脚手架首发 |
+| Unreleased | — | 开发中 |
 
-[Unreleased]: https://github.com/WangYing829/AI-Software-Factory/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/WangYing829/AI-Software-Factory/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/WangYing829/AI-Software-Factory/releases/tag/v0.2.0
 [0.1.0]: https://github.com/WangYing829/AI-Software-Factory/releases/tag/v0.1.0

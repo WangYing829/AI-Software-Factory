@@ -9,7 +9,9 @@ description: Vue-specific UI implementation guidance. Use when creating Vue comp
 Vue 组件/页面/路由/状态实现时。
 
 ## Instructions
-1. 以 `02-product/ui/` 与 API 契约为准
-2. 组件职责单一；复杂逻辑抽 composable（若项目使用）
-3. 权限与空态/错态要有明确 UI
-4. 不硬编码应由配置或字典驱动的文案/枚举（若文档有约定）
+1. 以 `01-business/06-page-design.md`、`02-product/ui/` 与 `05-api/` 为准
+2. Composition API + `<script setup lang="ts">`；组件职责单一
+3. 权限 / 空态 / 错态 / loading 必须有 UI；对齐 RBAC
+4. 不硬编码密钥；枚举与文案优先来自字典或配置
+5. API 封装与类型分目录；输出遵循 `06-prompts/05-frontend-vue.md`
+6. 路由变更同步页面清单文档

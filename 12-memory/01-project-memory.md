@@ -6,8 +6,8 @@
 - 仓库：`https://github.com/WangYing829/AI-Software-Factory`
 - 顶层结构：`01-business` … `16-output`
 - Prompt/Skill/Agent：顶层 `06/08/09` + `.cursor` Junction
-- 当前版本：`0.1.0` + `[Unreleased]`（权威变更日志：根目录 `CHANGELOG.md`）
-- 定位：**方法论模板**；`monitorV2` 为示例代号（见 `TEMPLATE_USAGE.md`）
+- 当前版本：`0.2.0`（权威变更日志：根目录 `CHANGELOG.md`）
+- 定位：**方法论模板**；当前 Sprint：**S01 纯模板演示闭环**
 
 ## 重要决策
 | 日期 | 决策 | 原因 |

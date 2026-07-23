@@ -1,5 +1,5 @@
 ﻿openapi: 3.0.3
 info:
   title: monitorV2 API
-  version: 0.0.1
+  version: 0.2.0
 paths: {}

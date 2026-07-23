@@ -1,14 +1,14 @@
 # 项目状态
 
 - **项目**：AI 软件工厂（方法论模板；示例代号 monitorV2）
-- **当前版本**：`0.1.0` + `[Unreleased]` 整改（见 `CHANGELOG.md`）
-- **当前阶段**：📍 模板加固完成 → 回到 `01-business/` 示例/真实业务二选一
-- **健康度**：P0/P1/P2 建议项已按确认落地；空模板与 Skills 双份已清理
+- **当前版本**：`0.2.0`
+- **当前阶段**：📍 S01 纯模板演示；`01-business` 仍可继续补 01–04
+- **健康度**：02–05 空文档已模板化；P0/P1/P2 审计项关闭
 - **阻塞**：无
-- **最近更新**：2026-07-23 — 执行整合建议三批；monitorV2 定位为方法论模板
+- **最近更新**：2026-07-23 — 第四批：02–05 模板 + Prompt/Skill/Memory + 开 S01 + 发 v0.2.0
 
 ## 快捷入口
 - `TEMPLATE_USAGE.md` / `00-project.md` / `CHANGELOG.md`
-- `整合建议.md`（审计与确认记录）
+- `整合建议.md`
+- `07-tasks/01-sprint-planning.md`
 - `11-context/01-current-phase.md`
-- `11-context/03-daily-tasks.md`
