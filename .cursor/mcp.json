@@ -1,0 +1,84 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}/01-business",
+        "${workspaceFolder}/02-product",
+        "${workspaceFolder}/03-architecture",
+        "${workspaceFolder}/04-database",
+        "${workspaceFolder}/05-api",
+        "${workspaceFolder}/06-prompts",
+        "${workspaceFolder}/07-tasks",
+        "${workspaceFolder}/08-skills",
+        "${workspaceFolder}/09-agents",
+        "${workspaceFolder}/10-knowledge",
+        "${workspaceFolder}/11-context",
+        "${workspaceFolder}/12-memory",
+        "${workspaceFolder}/15-templates"
+      ]
+    },
+    "git": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-git",
+        "--repository",
+        "${workspaceFolder}"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+    },
+    "mysql": {
+      "command": "npx",
+      "args": ["-y", "@benborla29/mcp-server-mysql"],
+      "env": {
+        "MYSQL_HOST": "${env:MYSQL_HOST}",
+        "MYSQL_PORT": "${env:MYSQL_PORT}",
+        "MYSQL_USER": "${env:MYSQL_USER}",
+        "MYSQL_PASS": "${env:MYSQL_PASSWORD}",
+        "MYSQL_DB": "${env:MYSQL_DATABASE}"
+      }
+    },
+    "openapi": {
+      "command": "npx",
+      "args": ["-y", "@ivotoby/openapi-mcp-server"],
+      "env": {
+        "API_BASE_URL": "${env:API_BASE_URL}",
+        "OPENAPI_SPEC_PATH": "${workspaceFolder}/05-api/01-openapi-spec.yaml"
+      }
+    },
+    "docker": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-v",
+        "/var/run/docker.sock:/var/run/docker.sock",
+        "mcp/docker"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "knowledge": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}/10-knowledge",
+        "${workspaceFolder}/12-memory",
+        "${workspaceFolder}/11-context"
+      ]
+    }
+  }
+}

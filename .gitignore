@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+
+# 日志
+16-output/logs/*.log
+*.log
+
+# 输出产物
+16-output/builds/
+16-output/docs/
+16-output/reports/
+16-output/logs/*.log
+!16-output/**/.gitkeep
+
+# 系统文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境变量
+.env
+.env.local
+.env.*
+
+# Docker
+14-scripts/docker/*.env

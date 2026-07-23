@@ -1,0 +1,24 @@
+---
+description: 阶段文档与任务目录约定
+globs: 01-business/**/*.md,02-product/**/*.md,03-architecture/**/*.md,04-database/**/*.md,05-api/**/*.md,07-tasks/**/*.md
+alwaysApply: false
+---
+
+# 文档与任务约定
+
+## 阶段文档（01–05）
+- 当前阶段见 `11-context/01-current-phase.md`
+- 各目录以 `README.md` 为索引
+- 页面/原型：`01-business/06-page-design.md`、`08-prototype/`；补充 UI 材料可放 `02-product/ui/`
+
+## 07-tasks（文件型看板）
+| 文件/目录 | 含义 |
+|-----------|------|
+| `01-sprint-planning.md` | Sprint 计划 |
+| `02-backlog.md` | 产品待办 |
+| `03-todo.md` | 当前待办 |
+| `04-bug-tracking.md` | Bug |
+| `05-done.md` | 已完成 |
+| `sprints/` | 历史 Sprint 归档 |
+
+任务条目建议含：ID、优先级、状态、验收标准、关联文档路径。

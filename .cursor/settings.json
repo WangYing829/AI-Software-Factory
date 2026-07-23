@@ -1,0 +1,11 @@
+{
+  "agentMode": true,
+  "autoApplyEdits": false,
+  "contextWindowPriority": "project",
+  "enableRules": true,
+  "loadLocalPrompts": true,
+  "codeFormatOnSave": true,
+  "maxContextFiles": 50,
+  "workflowAutoScan": true,
+  "projectMode": "software-factory"
+}

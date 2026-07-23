@@ -1,0 +1,34 @@
+---
+description: AI 软件工厂核心约定：文档驱动、目录职责、中文沟通
+alwaysApply: true
+---
+
+# 软件工厂核心规则
+
+## 命名
+- 目录与文件统一 `数字-英文名称`
+- 顶层阶段：`01-business` … `16-output`
+- 阶段索引统一用 `README.md`（不再使用 `00-readme.md`）
+- 例外：`.cursor/`、根 `README.md`、`.gitignore`、`mcp.json`、`settings.json`、`SKILL.md`
+
+## 工作方式
+1. **文档驱动**：先写 `01-business`→`05-api`，再改 `13-src/`
+2. **读运行态**：开工先看 `00-project.md`、`11-context/`
+3. **多角色**：PM → Architect → Java/Vue/Python/SQL → Test → Review → DevOps
+4. **中文沟通**：对用户回复使用简体中文
+
+## 目录速查
+| 路径 | 用途 |
+|------|------|
+| `01-business` … `05-api` | 业务→接口 |
+| `06-prompts` / `08-skills` / `09-agents` | Prompt / Skill / Agent（`.cursor` 已 junction） |
+| `07-tasks` | Sprint/Backlog/Todo/Bug/Done + `sprints/` |
+| `10-knowledge` | 长期规范 |
+| `11-context` | 运行态 |
+| `12-memory` | 长期记忆 |
+| `13-src` … `16-output` | 代码 / 脚本 / 模板 / 产出 |
+
+## 变更约束
+- 不提交密钥
+- 完成后更新 `11-context/`，经验写入 `12-memory/`
+- 避免双份文档：同一主题只保留一处权威文件
