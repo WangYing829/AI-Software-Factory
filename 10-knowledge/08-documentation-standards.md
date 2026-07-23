@@ -23,5 +23,11 @@
 - **MINOR**：新增阶段能力、Agent/Skill、非破坏性约定
 - **MAJOR**：顶层目录/流程约定破坏性调整
 
+## 反馈闭环（Memory）
+
+- 任一阶段产物完成后，产生的 **Bug / 经验教训 / 可复用方案** 须在 **24 小时内**写入 `12-memory/`（`03-bug-memory` / `04-lessons-learned` / `05-solutions-library`）
+- 运行态进度同步 `11-context/`；长期事实同步 `12-memory/01-project-memory.md`
+- 禁止只改代码/文档却不更新 Context/Memory 导致「下一会话失忆」
+
 ## 待填
 - [ ] 文档评审流程

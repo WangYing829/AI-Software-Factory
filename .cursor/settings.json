@@ -5,7 +5,7 @@
   "enableRules": true,
   "loadLocalPrompts": true,
   "codeFormatOnSave": true,
-  "maxContextFiles": 50,
+  "maxContextFiles": 100,
   "workflowAutoScan": true,
   "projectMode": "software-factory"
 }

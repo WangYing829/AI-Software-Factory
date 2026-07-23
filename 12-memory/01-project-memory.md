@@ -6,7 +6,8 @@
 - 仓库：`https://github.com/WangYing829/AI-Software-Factory`
 - 顶层结构：`01-business` … `16-output`
 - Prompt/Skill/Agent：顶层 `06/08/09` + `.cursor` Junction
-- 当前版本：`0.1.0`（权威变更日志：根目录 `CHANGELOG.md`）
+- 当前版本：`0.1.0` + `[Unreleased]`（权威变更日志：根目录 `CHANGELOG.md`）
+- 定位：**方法论模板**；`monitorV2` 为示例代号（见 `TEMPLATE_USAGE.md`）
 
 ## 重要决策
 | 日期 | 决策 | 原因 |
@@ -15,7 +16,9 @@
 | 2026-07-23 | Skills 仅保留 `*/SKILL.md` 目录形态 | 符合 Cursor 加载约定 |
 | 2026-07-23 | Tasks 改为文件型看板 + `sprints/` | 与任务 README 一致 |
 | 2026-07-23 | 版本日志唯一落点为 `CHANGELOG.md` + SemVer | 与评审清单一致，避免双份文档 |
+| 2026-07-23 | monitorV2 先作方法论模板复用 | 用户确认；真实业务后续再接入 |
+| 2026-07-23 | 整合建议 P0-04=补模板、P1-02=草稿、三批立即执行 | 用户确认 |
 
 ## 待补
-- 业务背景与目标用户
-- 技术栈最终选型
+- 真实业务背景（若退出纯模板模式）
+- 技术栈按落地项目最终锁定

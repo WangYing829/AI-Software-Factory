@@ -1,13 +1,14 @@
 # 项目状态
 
-- **项目**：monitorV2（见 `00-project.md`）
-- **当前版本**：`0.1.0`（见根目录 `CHANGELOG.md`）
-- **当前阶段**：📍 `01-business/` 业务梳理
-- **健康度**：目录已去重合并；业务文档推进中
+- **项目**：AI 软件工厂（方法论模板；示例代号 monitorV2）
+- **当前版本**：`0.1.0` + `[Unreleased]` 整改（见 `CHANGELOG.md`）
+- **当前阶段**：📍 模板加固完成 → 回到 `01-business/` 示例/真实业务二选一
+- **健康度**：P0/P1/P2 建议项已按确认落地；空模板与 Skills 双份已清理
 - **阻塞**：无
-- **最近更新**：2026-07-23 — 新增版本变更日志 `CHANGELOG.md` 与文档版本约定
+- **最近更新**：2026-07-23 — 执行整合建议三批；monitorV2 定位为方法论模板
 
 ## 快捷入口
-- `00-project.md` / 根 `README.md` / `CHANGELOG.md`
+- `TEMPLATE_USAGE.md` / `00-project.md` / `CHANGELOG.md`
+- `整合建议.md`（审计与确认记录）
 - `11-context/01-current-phase.md`
 - `11-context/03-daily-tasks.md`

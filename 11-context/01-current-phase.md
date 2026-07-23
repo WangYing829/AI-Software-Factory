@@ -9,17 +9,17 @@
 - [x] 项目目录结构搭建
 - [x] 核心文档模板创建
 - [x] 业务梳理启动
+- [x] 整合建议三批整改（空文件/模板/规范/脚本）
+- [x] 方法论模板：`TEMPLATE_USAGE.md` + `00-project.md` 草稿
 
 ## 进行中
 - [ ] 01-business/01-project-background.md
 - [ ] 01-business/02-user-roles.md
 - [ ] 01-business/03-business-flow.md
+- [ ] 01-business/04-functional-list.md
 
 ## 待开始
-- [ ] 01-business/04-functional-list.md
-- [ ] 01-business/05-permission-design.md
-- [ ] 01-business/06-page-design.md
-- [ ] 01-business/07-data-dictionary.md
+- [ ] 基于骨架填写 05/06/07（权限/页面/数据字典）真实或示例内容
 - [ ] 01-business/08-prototype/
 
 ## 阻塞项

@@ -22,15 +22,12 @@ var/
 venv/
 .venv/
 
-# 日志
-16-output/logs/*.log
-*.log
-
-# 输出产物
+# 阶段 16 输出物（目录整棵忽略；.gitkeep 最后否定复活）
 16-output/builds/
 16-output/docs/
 16-output/reports/
-16-output/logs/*.log
+16-output/logs/
+*.log
 !16-output/**/.gitkeep
 
 # 系统文件
@@ -48,3 +45,8 @@ Thumbs.db
 
 # Docker
 14-scripts/docker/*.env
+
+# Cursor Junction（由 14-scripts/setup-cursor.ps1 重建，勿入库）
+.cursor/prompts/
+.cursor/skills/
+.cursor/agents/

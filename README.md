@@ -48,7 +48,10 @@ Cursor 负责编码，但整个项目由 AI 多角色协同完成。
 6. AI Code Review    → 09-agents/08-review-agent.md
 7. 自动测试          → 06-prompts/07-testing.md
 8. 部署与知识沉淀    → 14-scripts/ + 12-memory/
+9. 复盘沉淀          → 12-memory/（Bug / 经验教训 / 解决方案库）
 ```
+
+Fork / 新 clone 后先读 [`TEMPLATE_USAGE.md`](./TEMPLATE_USAGE.md)，并执行 `.\14-scripts\setup-cursor.ps1`。
 
 ---
 
@@ -56,16 +59,17 @@ Cursor 负责编码，但整个项目由 AI 多角色协同完成。
 
 当前版本：**0.1.0**（2026-07-23）
 
-变更记录见 [`CHANGELOG.md`](./CHANGELOG.md)。发版前先更新 `[Unreleased]`，再打 `vX.Y.Z` 标签。
+变更记录见 [`CHANGELOG.md`](./CHANGELOG.md)。发版前先更新 `[Unreleased]`，再按 [`15-templates/release-checklist.md`](./15-templates/release-checklist.md) 打 `vX.Y.Z` 标签。
 
 ---
 
 ## 快速开始
 
-1. 当前你处于 **01-business** 阶段，继续完善业务文档
-2. 每完成一个阶段，更新 `11-context/01-current-phase.md`
-3. 将当前阶段的文档作为 Context 喂给 Cursor
-4. 使用对应阶段的 Prompt 驱动 AI 完成工作
+1. 确认用法：方法论模板（默认）还是真实项目接入 — 见 `TEMPLATE_USAGE.md` / `00-project.md`
+2. 当前默认阶段 **01-business**：完善业务文档（示例占位可先保留）
+3. 每完成一个阶段，更新 `11-context/01-current-phase.md`
+4. 将当前阶段文档作为 Context，用对应 Prompt / Agent 驱动工作
+5. 阶段产物中的 Bug / 经验 **24h 内**写入 `12-memory/`
 
 ---
 
