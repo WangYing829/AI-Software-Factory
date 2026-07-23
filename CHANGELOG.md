@@ -15,14 +15,14 @@
 ## [Unreleased]
 
 ### Added
-- S01 演示业务 **DemoAlert**：`01-business/01–04` 示例内容
-- 演示 PRD 与用户故事（`02-product/01|02`）；Backlog US-001～006
-- 文档评审流程（`10-knowledge/08-documentation-standards.md`）
-- S01 复盘条目（Memory / 决策日志 / Done 归档）
+- S02 模板深化：DemoAlert 对齐 `01-business/06|07`、`03-architecture`、`04-database`（含 init SQL）、`05-api`（OpenAPI paths）
+- `04-database/03-initialization-sql/V20260723__demoalert_init.sql`
+- Sprint 归档 `sprints/S02-template-deepen.md`
 
 ### Changed
-- `01-business/05-permission-design.md` 矩阵对齐告警域权限点
-- S01 关闭；Context / Sprint 计划归档
+- 术语统一：业务主实体 → `Alert` / 表 `alert`；API `/alerts*`
+- M2 里程碑标为完成（演示文档级）
+- S01 收尾：演示业务 DemoAlert、PRD/故事、复盘、文档评审流程（并入叙述）
 
 ### Fixed
 

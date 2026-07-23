@@ -1,24 +1,28 @@
 # ER 关系图
 
-## Mermaid（骨架）
+> **DemoAlert（S02）**
+
+## Mermaid
 
 ```mermaid
 erDiagram
   SYS_ORG ||--o{ SYS_USER : has
   SYS_USER ||--o{ SYS_USER_ROLE : has
   SYS_ROLE ||--o{ SYS_USER_ROLE : has
-  SYS_ORG ||--o{ BIZ_ENTITY : owns
-  BIZ_ENTITY ||--o{ BIZ_EVENT : records
+  SYS_ORG ||--o{ ALERT : owns
+  SYS_USER ||--o{ ALERT : handles
+  ALERT ||--o{ ALERT_EVENT : records
 ```
 
 ## 关系说明
 
 | 从 | 到 | 基数 | 删除策略 |
 |----|----|------|----------|
-| org | user | 1:N | RESTRICT |
-| user | role | N:N | RESTRICT |
-| entity | event | 1:N | RESTRICT |
+| sys_org | sys_user | 1:N | RESTRICT |
+| sys_user | sys_role | N:N | RESTRICT |
+| sys_org | alert | 1:N | RESTRICT |
+| alert | alert_event | 1:N | RESTRICT |
+| sys_user | alert.owner_id | 1:N | SET NULL 可选 / RESTRICT |
 
 ## 验收
-- [ ] 与 `01-table-design.md` 表名一致
-- [ ] 原图可存 `diagrams/`（若有）
+- [x] 与表设计一致

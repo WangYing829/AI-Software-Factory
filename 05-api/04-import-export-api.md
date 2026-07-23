@@ -1,21 +1,19 @@
 # 导入 / 导出 API
 
+> **DemoAlert（S02）**
+
 ## 范围
 | 能力 | 格式 | 权限 | 优先级 |
 |------|------|------|--------|
-| 导出 `[示例: 业务列表]` | CSV/XLSX | `rpt:export` | P1 |
-| 导入 | CSV | `biz:entity:write` | P2 |
+| 导出告警列表 | CSV | `rpt:export` | P1 |
+| 导入 | — | — | 不做 |
 
 ## 导出
-- **方法/路径**: `GET /api/v1/biz/entities/export`
-- **限制**: 最大行数 / 异步阈值说明
-- **字段映射**: 与列表列一致
-
-## 导入
-- **方法/路径**: `POST /api/v1/biz/entities/import`
-- **校验**: 模板列、必填、重复键策略
-- **结果**: 成功数 / 失败行报告
+- **路径**: `GET /api/v1/alerts/export`
+- **Query**: 与列表相同（status/keyword）+ 组织隔离
+- **限制**: 最大 5000 行；超出返回 400 提示缩小筛选
+- **字段**: code,title,severity,status,owner,org,created_at,close_reason
 
 ## 验收
-- [ ] 大文件策略（同步 vs 异步）已声明
-- [ ] 失败可追溯
+- [x] 异步非必须（同步流式即可）
+- [x] 无导入范围

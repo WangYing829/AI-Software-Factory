@@ -1,8 +1,8 @@
 # Sprint 计划
 
 ## 当前 Sprint
-- **名称**：S01 · 纯模板演示闭环
-- **目标**：在方法论模板模式下，跑通「业务骨架 → 产品/架构/库表/API 模板 → 任务看板」演示路径，不接入真实 monitorV2 业务深写
+- **名称**：S02 · 模板深化（DemoAlert 01→05）
+- **目标**：将架构 / 库表 / API 示例值统一为 DemoAlert，形成可 fork 的完整文档演示链（仍不写 `13-src`）
 - **时间盒**：2026-07-23 ~ 2026-07-30（实际于 2026-07-23 关闭）
 - **状态**：✅ 已关闭
 
@@ -10,30 +10,28 @@
 
 | ID | 标题 | 优先级 | 状态 | 关联文档 |
 |----|------|--------|------|----------|
-| T-001 | 02–05 空文档最小模板化 | P0 | 已完成 | `02-product`…`05-api` |
-| T-002 | 发版 v0.2.0 | P0 | 已完成 | `CHANGELOG.md` |
-| T-003 | 补强 Python/Vue/SQL Prompt + Skill/Memory | P1 | 已完成 | `06-prompts` / `08-skills` / `12-memory` |
-| T-004 | 开纯模板演示 Sprint 并更新 Context | P1 | 已完成 | `11-context/` / 本文件 |
-| T-005 | 演示：用 PM Prompt 基于骨架生成一页示例 PRD 段落 | P2 | 已完成 | `02-product/01-product-requirements.md` |
-| T-006 | 复盘写入 Memory（本 Sprint 结束） | P2 | 已完成 | `12-memory/` |
+| T-101 | 开 S02 + 迁入深化任务 | P0 | 已完成 | 本文件 / Context |
+| T-102 | 深化页面与业务字典（06/07） | P0 | 已完成 | `01-business/06\|07` |
+| T-103 | 深化架构 01–07 为 DemoAlert | P0 | 已完成 | `03-architecture/` |
+| T-104 | 深化库表 + 初始化 SQL | P0 | 已完成 | `04-database/` |
+| T-105 | 深化 REST/OpenAPI/导出/版本 | P0 | 已完成 | `05-api/` |
+| T-106 | 更新整合建议 / Memory / Backlog | P1 | 已完成 | `整合建议.md` 等 |
 
 ## 不在范围（Out）
-- 真实 monitorV2 业务深写（§7.2）
-- `13-src` 可运行代码实现
+- `13-src` 实现
+- 真实 monitorV2 业务替换
+- WebSocket 实时推送
 
 ## 完成定义（DoD）
-- [x] 02–05 无「假完成」空 md（非 `.gitkeep`）
-- [x] `v0.2.0` 已打 tag 并推送
-- [x] `整合建议.md` 已标注本迭代完成
-- [x] Context / Sprint 状态一致
-- [x] T-005 演示 PRD + 用户故事
-- [x] T-006 Sprint 复盘入 Memory
+- [x] 01→05 文档示例口径统一为 DemoAlert
+- [x] 存在可执行/可评审的 init SQL 与 OpenAPI paths
+- [x] Context / Backlog / 整合建议已更新
+- [x] 明确下一步（实现向 Sprint 或真实业务）待人确认
 
 ## 复盘摘要
-- **做得好**：虚构 DemoAlert 打通 01→02 文档链；权限点与 PRD 同步；发版与 Memory 闭环执行到位。
-- **改进**：下个 Sprint 开场先写「演示业务一句话」，避免中途才定域名。
-- **行动项**：US-001～006 进入 Backlog，供 S02（可选）选型。
+- **做得好**：状态机、权限点、表名、API 路径一次对齐，减少双份术语（BizEntity→Alert）。
+- **改进**：OpenAPI 可再补 schema 组件；种子用户 SQL 可后续加。
+- **行动项**：实现向 Sprint 从 Backlog US-001～005 拉取。
 
-下一 Sprint：未启动（待确认是否继续模板深化或切入真实业务）。
-
-归档快照：`sprints/S01-template-demo.md`。
+上一 Sprint：S01（已关闭）→ `sprints/S01-template-demo.md`  
+本 Sprint 归档：`sprints/S02-template-deepen.md`

@@ -3,14 +3,13 @@
 日期：2026-07-23
 
 ## 进行中
-- （无 — S01 已关闭）
+- （无）
 
 ## 待办
-- [ ] 确认 S02 方向：模板深化 vs 真实 monitorV2
-- [ ] 可选：从 Backlog 拉取 US-001～005 开实现向 Sprint（需先有 `13-src` 约定）
+- [ ] 确认是否开 S03：实现 DemoAlert MVP（US-001～005）
+- [ ] 或确认切换真实 monitorV2
 
 ## 已完成
-- [x] S01·T-005 DemoAlert 业务 + PRD + 用户故事
-- [x] S01·T-006 复盘 Memory / 决策日志
-- [x] 关闭 S01 并更新整合建议
-- [x] 文档评审流程写入 knowledge
+- [x] S02 模板深化（01→05 DemoAlert 对齐）
+- [x] init SQL + OpenAPI paths
+- [x] 整合建议 / Context 更新
