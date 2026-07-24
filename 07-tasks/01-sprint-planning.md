@@ -15,7 +15,7 @@
 | T-103 | 深化架构 01–07 为 DemoAlert | P0 | 已完成 | `03-architecture/` |
 | T-104 | 深化库表 + 初始化 SQL | P0 | 已完成 | `04-database/` |
 | T-105 | 深化 REST/OpenAPI/导出/版本 | P0 | 已完成 | `05-api/` |
-| T-106 | 更新整合建议 / Memory / Backlog | P1 | 已完成 | `整合建议.md` 等 |
+| T-106 | 更新 Memory / Backlog（原含整合建议，已移除） | P1 | 已完成 | `12-memory/` / `02-backlog.md` |
 
 ## 不在范围（Out）
 - `13-src` 实现
@@ -25,7 +25,7 @@
 ## 完成定义（DoD）
 - [x] 01→05 文档示例口径统一为 DemoAlert
 - [x] 存在可执行/可评审的 init SQL 与 OpenAPI paths
-- [x] Context / Backlog / 整合建议已更新
+- [x] Context / Backlog / Memory 已更新
 - [x] 明确下一步（实现向 Sprint 或真实业务）待人确认
 
 ## 复盘摘要

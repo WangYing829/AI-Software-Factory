@@ -9,6 +9,6 @@
 
 ## 交付
 - `01-business/06|07`、`03-architecture/*`、`04-database/*` + init SQL、`05-api/*` + OpenAPI paths
-- 整合建议 0.6.0；Memory / Context 同步
+- Memory / Context 同步（原整合建议文档已移除）
 
 详见 `07-tasks/01-sprint-planning.md`。

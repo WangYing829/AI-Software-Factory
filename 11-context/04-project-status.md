@@ -10,4 +10,4 @@
 ## 快捷入口
 - `07-tasks/sprints/S02-template-deepen.md`
 - `05-api/01-openapi-spec.yaml`
-- `整合建议.md`
+- `TEMPLATE_USAGE.md`
