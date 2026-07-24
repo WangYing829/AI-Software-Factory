@@ -1,14 +1,13 @@
 # 项目状态
 
 - **项目**：AI 软件工厂 · 方法论模板（演示域 DemoAlert）
-- **当前版本**：`0.2.0` + `[Unreleased]`（S02 深化）
-- **当前阶段**：✅ 01→05 文档演示链完成；待 S03/真实业务决策
-- **健康度**：术语已统一（Alert）；SQL 与 OpenAPI 可评审
+- **当前版本**：`0.2.0` + `[Unreleased]`（含 S01/S02）
+- **基线**：✅ **S02 完成态**（不执行 S03）
+- **健康度**：01→05 文档链闭合；无进行中 Sprint
 - **阻塞**：无
-- **最近更新**：2026-07-23 — S02 模板深化完成并关闭
+- **最近更新**：2026-07-24 — 用户确认不执行 S03，停留 S02
 
 ## 快捷入口
-- `05-api/01-openapi-spec.yaml`
-- `04-database/03-initialization-sql/V20260723__demoalert_init.sql`
 - `07-tasks/sprints/S02-template-deepen.md`
+- `05-api/01-openapi-spec.yaml`
 - `整合建议.md`
